@@ -50,5 +50,7 @@ deploy:
     secure: PcF5m7TOmab/WgzKJtR5YW/SAarPSSJgq0kfgmTUZHvOnSHwlljyKEPu3V1m2Orl8HOrej1p6zCOCx61oRIYbVejOOEau6aQYeVJPtGRigGIYOV/cDpcb2YuldWLT6iKXmDeVTpeVa/Ku5YZJ536sADN41pGW78G/uFa6EDXaIQ=
   server: https://test.pypi.org/legacy/
   on:
+    all_branches: true
+    condition: $TRAVIS_BRANCH =~ ^travis\-.+$
     python: "3.6"
   allow_failure: true
