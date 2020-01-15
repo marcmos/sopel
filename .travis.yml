@@ -47,7 +47,7 @@ deploy:
   provider: pypi
   username: dgw
   password:
-    secure: PcF5m7TOmab/WgzKJtR5YW/SAarPSSJgq0kfgmTUZHvOnSHwlljyKEPu3V1m2Orl8HOrej1p6zCOCx61oRIYbVejOOEau6aQYeVJPtGRigGIYOV/cDpcb2YuldWLT6iKXmDeVTpeVa/Ku5YZJ536sADN41pGW78G/uFa6EDXaIQ=
+    secure: AwqqS45GwvmIPuRa2FLvBVi7364fb9p7o0HqU0GLUJNb+8UAJF3q7i0VPZJvVT9HPvPVETQCGz+6lxUa91bJoR8pHQQYoxUEd2lqJsKSuMS5LdZtMn+O9niZt5vtrINlIXXdX5e6yF4Qc8bTPcINOd1xfTQF03KyuN46qEz0iYM=
   server: https://test.pypi.org/legacy/
   on:
     all_branches: true
